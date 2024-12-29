@@ -35,7 +35,7 @@ const userRoute = (require("./routes/feedbackRoute"));
 app.use("/api/v2",userRoute);
 
 // activate server
-app.listen(PORT, () =>{
+app.listen(PORT,'0.0.0.0', () =>{
     console.log(`App is running in the port no: ${PORT}`)
 });
 
