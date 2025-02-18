@@ -41,7 +41,7 @@ exports.createFirstSemQuestController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -125,7 +125,7 @@ exports.createSecondSemQuestController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -209,7 +209,7 @@ exports.createThirdSemQuestController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes =["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -293,7 +293,7 @@ exports.createFourthSemQuestController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes =["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -378,7 +378,7 @@ exports.createFifthSemQuestController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes =["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -463,7 +463,7 @@ exports.createSixthSemQuestController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes =["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -548,7 +548,7 @@ exports.createSeventhSemQuestController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes =["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -634,7 +634,7 @@ exports.createEighthSemQuestController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes =["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
