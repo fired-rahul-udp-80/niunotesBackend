@@ -36,7 +36,7 @@ exports.createPlacementController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
