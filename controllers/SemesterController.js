@@ -43,7 +43,7 @@ exports.createFirstSemController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf", "txt"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -129,7 +129,7 @@ exports.createSecondSemController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf", "txt"];
+        const supportedTypes = ["pdf", "txt","pptx"];;
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -215,7 +215,7 @@ exports.createThirdSemController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf", "txt"];
+        const supportedTypes =["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -328,7 +328,7 @@ exports.createFourthSemController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf", "txt"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -414,7 +414,7 @@ exports.createFifthSemController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf", "txt"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -507,7 +507,7 @@ exports.createSixthSemController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf", "txt"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -593,7 +593,7 @@ exports.createSeventhSemController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf", "txt"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
@@ -679,7 +679,7 @@ exports.createEighthSemController = async(req,res) =>{
         }
 
         // supported files
-        const supportedTypes = ["pdf", "txt"];
+        const supportedTypes = ["pdf", "txt","pptx"];
         const fileType = file.name.split(".")[1].toLowerCase();
         console.log(fileType);
         if(!isFileTypeSupported(fileType,supportedTypes)){
